@@ -1,4 +1,4 @@
-package model;
+package modelconnectiondb.model;
 
 public class Studente {
     private String nome;

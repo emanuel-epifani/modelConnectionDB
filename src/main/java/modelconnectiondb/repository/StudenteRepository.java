@@ -1,6 +1,6 @@
-package repository;
+package modelconnectiondb.repository;
 
-import model.Studente;
+import modelconnectiondb.model.Studente;
 
 import java.sql.*;
 import java.util.ArrayList;

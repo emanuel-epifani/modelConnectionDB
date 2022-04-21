@@ -1,16 +1,15 @@
-package controller;
+package modelconnectiondb.controller;
 
 
-import model.Studente;
+import modelconnectiondb.model.Studente;
+import modelconnectiondb.repository.StudenteRepository;
 import org.springframework.web.bind.annotation.*;
-import repository.StudenteRepository;
 
 import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/studente")
 public class StudentiController {
-
     //estraggo un array di studenti dal db
     @GetMapping("/selezionaStudenti")
     public ArrayList<Studente> getStudents(){
