@@ -1,1 +1,1 @@
-payload è il package che contiene i model che rappresentano i json che invierai al frontend
+payload è il package che contiene il model con le classi che rappresentano i json da inviere al frontend
