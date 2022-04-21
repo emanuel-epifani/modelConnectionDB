@@ -12,7 +12,7 @@ public class Debug {
 
         //Insert
         System.out.println("\n\n\n\n----------INSERT-----------");
-        Studente s1= new Studente("Pippo","Gialli", "Maschio");
+        Studente s1= new Studente("Mario","Gialli", "Maschio");
         StudenteRepository.insertStudenti(s1);
         System.out.println(StudenteRepository.selectStudenti());//x vedere se inserito
 
@@ -23,7 +23,7 @@ public class Debug {
 
         //Update
         System.out.println("\n\n\n\n----------UPDATE-----------");
-        Studente s2= new Studente("Zeno","Vignolini", "Maschio");
+        Studente s2= new Studente("Giggio","Papparonzi", "Maschio");
         StudenteRepository.updateStudente(s2);
         System.out.println(StudenteRepository.selectStudenti());//x vedere se modificato
 

@@ -65,8 +65,8 @@ public class StudenteRepository {
             PreparedStatement pstmt = conn.prepareStatement(SQL_DELETE);
             pstmt.setString(1,studente.getNome());
             pstmt.setString(2,studente.getCognome());
-            pstmt.setString(3,studente.getNome());
-            pstmt.setString(4,"Mario");
+            pstmt.setString(3,studente.getGenere());
+            pstmt.setString(4,"Zeno");
             int row = pstmt.executeUpdate();
             conn.close();
             pstmt.close();
