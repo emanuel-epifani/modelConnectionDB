@@ -66,7 +66,7 @@ public class StudenteRepository {
             pstmt.setString(1,studente.getNome());
             pstmt.setString(2,studente.getCognome());
             pstmt.setString(3,studente.getNome());
-            pstmt.setString(3,"Mario");
+            pstmt.setString(4,"Mario");
             int row = pstmt.executeUpdate();
             conn.close();
             pstmt.close();

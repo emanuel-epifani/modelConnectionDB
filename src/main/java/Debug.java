@@ -25,7 +25,7 @@ public class Debug {
         System.out.println("\n\n\n\n----------UPDATE-----------");
         Studente s2= new Studente("Zeno","Vignolini", "Maschio");
         StudenteRepository.updateStudente(s2);
-        System.out.println(StudenteRepository.selectStudenti());
+        System.out.println(StudenteRepository.selectStudenti());//x vedere se modificato
 
 
     }
